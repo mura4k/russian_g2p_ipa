@@ -76,7 +76,7 @@ class TranscriptionIPA:
                                     word.transcription.insert(first_consonant.index_in_word, 'ˈ')
                                     break
 
-                            elif (cur_sonority_level >= 6 and next_sonority_level <= 5) or cur_sonority_level == 0.5:
+                            elif cur_sonority_level >= 6 and next_sonority_level <= 5:
                                 word.transcription.insert(next_consonant.index_in_word, 'ˈ')
                                 break
 
