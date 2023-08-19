@@ -5,7 +5,7 @@ Accentor & Transcriptor for Russian Language
 
 ### Prerequisites
 
-You should have python3 installed on your machine (we recommend Anaconda3 package) and modules listed in requirements.txt. If you do not have them, run in Terminal
+You should have python3 (DAWG library requires python 3.8 or lower) installed on your machine (we recommend Anaconda3 package) and modules listed in requirements.txt. If you do not have them, run in Terminal
 
 ```
 pip3 install -r requirements.txt
@@ -21,8 +21,6 @@ git init
 git clone https://github.com/nsu-ai/russian_g2p.git\
 cd russian_g2p
 ```
-
-DAWG library requires python 3.8 or lower!
 
 Examples of using Accentor:
 
